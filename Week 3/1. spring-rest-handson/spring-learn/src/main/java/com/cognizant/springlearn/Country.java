@@ -31,4 +31,12 @@ public class Country {
         LOGGER.debug("Inside setName");
         this.name = name;
     }
+
+    @Override
+    public String toString() {
+        return "Country{" +
+                "code='" + code + '\'' +
+                ", name='" + name + '\'' +
+                '}';
+    }
 }
